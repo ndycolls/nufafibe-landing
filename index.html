@@ -1,187 +1,203 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nufafibe - Paduan Herbal & Serat</title>
-    <style>
-        /* Reset CSS */
-        body, h1, h2, h3, p, ul, ol, li, a {
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nufafibe - Serat Alami untuk Hidup Sehat</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+      color: #333;
+      line-height: 1.6;
+    }
 
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-            text-align: center;
-        }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-        header {
-            background: #4CAF50;
-            color: #fff;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-        }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
 
-        .hero img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
+    section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
 
-        .content, .benefits, .ingredients, .target-users, .usage, .cta {
-            padding: 20px;
-            margin: 10px auto;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            text-align: left;
-        }
+    h2 {
+      color: #4CAF50;
+    }
 
-        h2 {
-            color: #4CAF50;
-            margin-bottom: 10px;
-        }
+    ul, ol {
+      padding-left: 20px;
+    }
 
-        ul, ol {
-            padding-left: 20px;
-        }
+    ul li, ol li {
+      margin-bottom: 10px;
+    }
 
-        ul li, ol li {
-            padding: 8px 0;
-            font-size: 16px;
-        }
+    img {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 15px 0;
+    }
 
-        .cta {
-            background: #4CAF50;
-            color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px auto;
-            text-align: center;
-        }
+    .cta {
+      background: #ff9800;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
 
-        .order-button {
-            display: inline-block;
-            background: #ff9800;
-            color: #fff;
-            padding: 12px 24px;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            transition: background 0.3s;
-            font-weight: bold;
-        }
+    .cta a {
+      text-decoration: none;
+      background: #fff;
+      color: #ff9800;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
 
-        .order-button:hover {
-            background: #e68900;
-        }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 15px;
+      font-size: 14px;
+    }
 
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 15px 0;
-            margin-top: 20px;
-        }
-
-        .footer-text {
-            font-size: 14px;
-        }
-
-        /* Responsif untuk mobile */
-        @media (max-width: 768px) {
-            body {
-                font-size: 16px;
-            }
-            
-            header {
-                font-size: 20px;
-                padding: 15px;
-            }
-
-            .content, .benefits, .ingredients, .target-users, .usage, .cta {
-                padding: 15px;
-                margin: 10px;
-            }
-
-            .order-button {
-                padding: 10px 20px;
-                font-size: 16px;
-            }
-
-            footer {
-                padding: 10px 0;
-            }
-        }
-    </style>
+    @media (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Nufafibe - Paduan Herbal & Serat untuk Hidup Sehat</h1>
-    </header>
-    <section class="hero">
-        <img src="https://i.ibb.co.com/vGsbW2P/NF2.jpg" alt="Nufafibe">
-    </section>
-    <section class="content">
-        <h2>Solusi Alami untuk Kesehatan Pencernaan & Vitalitas Tubuh</h2>
-        <p>Dapatkan manfaat terbaik dari kombinasi herbal alami dan serat yang diformulasikan khusus untuk mendukung kesehatan tubuh Anda.</p>
-    </section>
-    <section class="benefits">
-        <h2>Kenapa Memilih Nufafibe?</h2>
-        <ul>
-            <li>✔ 100% Bahan Alami</li>
-            <li>✔ Kaya Akan Serat</li>
-            <li>✔ Menyehatkan Pencernaan & Detox Alami</li>
-            <li>✔ Mendukung Sistem Imun & Vitalitas</li>
-        </ul>
-    </section>
-    <section class="ingredients">
-        <h2>Kandungan Alami & Manfaatnya</h2>
-        <ul>
-            <li><strong>Plantago Ovata</strong> - Melancarkan pencernaan.</li>
-            <li><strong>Rheum Officinale</strong> - Membantu pencernaan.</li>
-            <li><strong>Punica Granatum</strong> - Antioksidan tinggi.</li>
-            <li><strong>Curcuma Domestica</strong> - Menjaga kesehatan hati.</li>
-            <li><strong>Caesalpinia Sappan</strong> - Mendukung sirkulasi darah.</li>
-            <li><strong>Hibiscus Sabdariffa</strong> - Menjaga kesehatan jantung.</li>
-            <li><strong>Prunus Persica</strong> - Kaya akan vitamin.</li>
-            <li><strong>Stevia Rebaudiana</strong> - Pemanis alami.</li>
-        </ul>
-    </section>
-    <section class="target-users">
-        <h2>Siapa yang Membutuhkan Nufafibe?</h2>
-        <ul>
-            <li>✅ Orang dengan masalah pencernaan.</li>
-            <li>✅ Mereka yang ingin menjaga berat badan ideal.</li>
-            <li>✅ Individu yang ingin meningkatkan daya tahan tubuh.</li>
-            <li>✅ Orang yang peduli dengan kesehatan jantung.</li>
-            <li>✅ Mereka yang mencari nutrisi alami.</li>
-        </ul>
-    </section>
-    <section class="usage">
-        <h2>Cara Konsumsi</h2>
-        <ol>
-            <li>Larutkan 1 sachet Nufafibe dalam 200 ml air.</li>
-            <li>Aduk hingga merata, lalu konsumsi sebelum atau sesudah makan.</li>
-            <li>Konsumsi secara rutin untuk hasil optimal.</li>
-        </ol>
-    </section>
-    <section class="cta">
-        <h2>Dapatkan Nufafibe Sekarang!</h2>
-        <p>Jangan lewatkan kesempatan untuk memiliki tubuh yang lebih sehat secara alami.</p>
-	<a href="https://wa.me/6285167550638?text=Halo%20saya%20tertarik%20dengan%20produk%20Nufafibe" class="order-button" target="_blank">Pesan Sekarang</a>
-    </section>
-    <footer>
-        <p class="footer-text">&copy; 2025 Nufafibe. Semua Hak Dilindungi.</p>
-    </footer>
+
+<header>
+  <h1>Nufafibe – Serat Alami, Tubuh Lebih Sehat</h1>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>🌿 Solusi Sehat dari Alam</h2>
+    <p>Nufafibe adalah minuman serbuk alami yang diformulasikan untuk melancarkan pencernaan, meningkatkan daya tahan tubuh, dan membantu menjaga berat badan ideal.</p>
+    <img src="https://i.ibb.co.com/vGsbW2P/NF2.jpg" alt="Nufafibe">
+  </section>
+
+  <section>
+    <h2>✅ Kenapa Pilih Nufafibe?</h2>
+    <ul>
+      <li>✔ 100% bahan alami</li>
+      <li>✔ Kaya akan serat</li>
+      <li>✔ Menyehatkan pencernaan dan detox alami</li>
+      <li>✔ Mendukung sistem imun dan vitalitas</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🌱 Kandungan Alami & Manfaatnya</h2>
+    <ul>
+      <li><strong>Plantago Ovata</strong> – Melancarkan pencernaan</li>
+      <li><strong>Rheum Officinale</strong> – Membantu pencernaan</li>
+      <li><strong>Punica Granatum</strong> – Antioksidan tinggi</li>
+      <li><strong>Curcuma Domestica</strong> – Menjaga kesehatan hati</li>
+      <li><strong>Caesalpinia Sappan</strong> – Mendukung sirkulasi darah</li>
+      <li><strong>Hibiscus Sabdariffa</strong> – Menjaga kesehatan jantung</li>
+      <li><strong>Prunus Persica</strong> – Kaya akan vitamin</li>
+      <li><strong>Stevia Rebaudiana</strong> – Pemanis alami</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>👤 Siapa yang Membutuhkan Nufafibe?</h2>
+    <ul>
+      <li>✅ Orang dengan masalah pencernaan</li>
+      <li>✅ Mereka yang ingin menjaga berat badan ideal</li>
+      <li>✅ Individu yang ingin meningkatkan daya tahan tubuh</li>
+      <li>✅ Orang yang peduli dengan kesehatan jantung</li>
+      <li>✅ Mereka yang mencari nutrisi alami</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📦 Cara Konsumsi</h2>
+    <ol>
+      <li>Larutkan 1 sachet Nufafibe dalam 150 ml air.</li>
+      <li>Aduk hingga merata, lalu konsumsi sebelum atau sesudah makan.</li>
+      <li>Konsumsi secara rutin untuk hasil optimal.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>⭐ Testimoni Pengguna</h2>
+    <p><strong>Dani (43 tahun)</strong><br>“Penyakit asam lambung mulai membaik, badan terasa lebih ringan dan enerjik setelah 4 sachet.”</p>
+    <img src="https://i.ibb.co.com/cKdQZpJD/WA2.jpg" alt="WA2">
+    <img src="https://i.ibb.co.com/C5RCmnX5/WA3.jpg" alt="WA3">
+  </section>
+
+  <section>
+    <h2>💬 Testimoni Lainnya</h2>
+    <ul>
+      <li><strong>Lina (35 tahun)</strong>: "BAB jadi lancar setiap pagi dan perut nggak kembung lagi."</li>
+      <li><strong>Rizal (41 tahun)</strong>: "Sekarang tiap pagi lebih segar, pencernaan jauh lebih baik."</li>
+      <li><strong>Dewi (29 tahun)</strong>: "Suka karena alami dan ada stevia. Aman buat diet!"</li>
+      <li><strong>Pak Anto (50 tahun)</strong>: "Kolesterol tinggi & sembelit mulai membaik. Badan enteng!"</li>
+    </ul>
+     <img src="https://i.ibb.co.com/GvcD0pVt/WA1.jpg" alt="WA1">
+  </section>
+
+  <section style="padding: 60px 20px; background-color: #f7f7f7;">
+    <h2 style="text-align: center; color: #333; margin-bottom: 30px;">
+      Bukti Nyata dari Pelanggan Kami 💬
+    </h2>
+   <p style="text-align: center; color: #555; max-width: 700px; margin: 0 auto 40px;">
+      Berikut adalah beberapa tangkapan layar percakapan asli dari pelanggan yang telah merasakan manfaat Nufafibe.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  
+      <img src="https://i.ibb.co.com/zDKrLtk/SCR8.jpg" alt="SCR8" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="https://i.ibb.co.com/7dXny57Z/SCR9.jpg" alt="SCR9" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="https://i.ibb.co.com/VY2ZLCQf/SCR4.jpg" alt="SCR4" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="https://i.ibb.co.com/LDqZ8WVG/SCR2.jpg" alt="SCR2" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="https://i.ibb.co.com/fYFRxRsx/SCR5.jpg" alt="SCR5" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      
+    </div>
+  </section>
+
+
+ <section style="background: #4CAF50; text-align: center; padding: 40px 20px;">
+  <p style="color: white; font-size: 18px; margin-bottom: 20px;">
+    Jangan lewatkan kesempatan untuk memiliki tubuh yang lebih sehat secara alami.
+  </p>
+  <a href="https://wa.me/6285167550638?text=Halo%20saya%20tertarik%20dengan%20produk%20Nufafibe"
+     style="background-color: #FFA500; color: white; font-weight: bold; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-size: 16px;">
+    Pesan Sekarang
+  </a>
+</section>
+
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Nufafibe. Semua Hak Dilindungi.</p>
+</footer>
+
 </body>
 </html>
